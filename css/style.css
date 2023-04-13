@@ -1,0 +1,454 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+body h1,body h2,body h3,body h4,
+body h5,body h6{
+    font-family: 'Poppins', sans-serif;}
+
+
+#home{
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+
+}
+.layer{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.605);
+    color: white;
+    flex-direction: column;
+}
+nav .nav-bline{
+    width: 0px;
+    border-bottom: 2px solid white ;
+    position: relative;
+    top: -25px;
+    left: 0;
+    transition: all 0.5s;
+}
+nav a:hover .nav-bline{
+    width: 35px;
+}
+
+#home  h1::after{
+    font-weight: 600;
+    content: "|"; 
+    animation-name: typed;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes typed {
+        /* Laary Daniels| */
+        1%{content:"Laary Daniels|";}
+        2%{content:"Laary Daniels|";}
+        3%{content:"Laary Daniel|";}
+        4%{content:"Laary Daniel|";}
+        5%{content:"Laary Danie|";}
+        6%{content:"Laary Danie|";}
+        7%{content:"Laary Dani|";}
+        8%{content:"Laary Dani|";}
+        9%{content:"Laary Da| ";}
+        10%{content:"Laary D| ";}
+        11%{content:"Laary D| ";}
+        12%{content:"Laary |";}
+        13%{content:"Laary |";}
+        14%{content:"Laar|";}
+        15%{content:"Laar|";}
+        16%{content:"Laa|";}
+        17%{content:"La|";}
+        18%{content:"La";}
+        19%{content:"L|";}
+        20%{content:"L|";}
+        21%{content:"|";}
+        22%{content:"|";}
+                /* Designer| */
+        23%{content:"D|";}
+        24%{content:"D|";}
+        25%{content:"De|";}
+        26%{content:"De|";}
+        27%{content:"Des|";}
+        28%{content:"Des|";}
+        29%{content:"Desi |";}
+        30%{content:"Desi|";}
+        31%{content:"Desig|";}
+        32%{content:"Desig|";}
+        33%{content:"Design|";}
+        34%{content:"Design|";}
+        35%{content:"Designe|";}
+        36%{content:"Designe|";}
+        37%{content:"Designer|";}
+        38%{content:"Designer|";}
+        39%{content:"Designe|";}
+        40%{content:"Designe|";}
+        41%{content:"Design|";}
+        42%{content:"Design|";}
+        43%{content:"Desig|";}
+        44%{content:"Desig|";}
+        45%{content:"Desi|";}
+        46%{content:"Des|";}
+        47%{content:"Des|";}
+        48%{content:"De|";}
+        49%{content:"De|";}
+        50%{content:"D|";}
+        51%{content:"D|";}
+        52%{content:"|";}
+        53%{content:"|";}
+        54%{content:"|";}
+        55%{content:"|";}
+        56%{content:"|";}
+        57%{content:"|";}
+                /* Developer */
+        58%{content:"D|";}
+        59%{content:"D|";}
+        60%{content:"De|";}
+        61%{content:"De|";}
+        62%{content:"Dev|";}
+        63%{content:"Dev|";}
+        64%{content:"Deve|";}
+        65%{content:"Deve|";}
+        66%{content:"Devel|";}
+        67%{content:"Devel|";}
+        68%{content:"Develo|";}
+        69%{content:"Develo|";}
+        70%{content:"Develop|";}
+        71%{content:"Develop|";}
+        72%{content:"Develope|";}
+        73%{content:"Develope|";}
+        74%{content:"Developer|";}
+        75%{content:"Developer|";}
+        76%{content:"Developer|";}
+        77%{content:"Developer|";}
+        78%{content:"Developer|";}
+        79%{content:"Develope|";}
+        80%{content:"Develope|";}
+        81%{content:"Develop|";}
+        82%{content:"Develop|";}
+        83%{content:"Develo|";}
+        84%{content:"Develo|";}
+        85%{content:"Devel|";}
+        86%{content:"Deve|";}
+        87%{content:"Deve|";}
+        88%{content:"Dev|";}
+        89%{content:"Dev|";}
+        90%{content:"De|";}
+        91%{content:"De|";}
+        92%{content:"D|";}
+        93%{content:"D|";}
+        94%{content:"|";}
+        95%{content:"|";}
+        96%{content:"|";}
+        97%{content:"|";}
+        98%{content:"|";}
+        99%{content:"|";}
+        100%{content:"|";}
+        
+}
+
+.myhome-i{
+    width: 35px;
+    height: 35px;
+    background-color: rgba(0, 0, 0, 0.233);
+    border-radius: 50%;
+}
+#home .home-icons:hover{
+    cursor: pointer;
+}
+
+
+
+#About{
+    background-color: white;
+    min-height: 100vh;
+}
+
+
+#About .mybtn-about1{
+    background-color: black;
+    color: white;
+    transition: all 0.5s;
+
+
+}
+
+#About .mybtn-about1:hover {
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+}
+#About .mybtn-about2{
+   
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    transition: all 0.5s;
+
+
+}
+
+#About .mybtn-about2:hover{
+    
+    background-color: black;
+    color: white;
+   
+}
+#About .about-img{
+    height: 90vh;
+}
+
+#About .mytext-a-pos{
+    position: relative;
+    bottom:-55px;
+    left: 10px;
+    color: white;
+    
+    font-size: 14px;
+}
+#About .mynum-a-pos3{
+    position: relative;
+    bottom:-30px;
+    color: white;
+}
+#About .mynum-a-pos{
+    position: relative;
+    bottom:-30px;
+    color: white;
+
+    
+
+}
+ 
+
+#About .mynum-a-pos2{
+    position: relative;
+    bottom:-30px;
+    color: white;
+    padding-right: 112px;
+
+}
+
+#Services{
+    background-color: #F7F7F7;
+    min-height: 100vh;
+    text-align: center;
+}
+#Services .my-titles{
+    padding-top: 100px;
+    font-weight: bold;
+    font-size: 40px;
+}
+#Services .s-icones{
+    width: 80px;
+    height: 80px;
+    background-color: #F7F7F7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 50%;
+    transition: all 1s;
+
+}
+
+#Services .s-item:hover .s-icones{
+    background-color: black;
+    color: white;
+
+}
+
+
+#Works{
+    background-color: white;
+    min-height: 100vh;
+    text-align: center;
+}
+#Works .nav-pills .nav-link{
+   color: black;
+   font-weight: bold;
+}
+   
+    
+#Works .nav-pills .nav-link.active{
+background-color: white;
+border-bottom:2px solid black ;
+border-radius: 0;
+width: fit-content;
+
+}
+#Works .work-line{
+    margin-top: 10px;
+    width: 0px;
+    height: 2px;
+    background-color: black;
+    transition: all 1s;
+}
+
+
+#Works .border{
+
+   
+    position: relative;
+}
+#Works .img-content{
+    position: relative;
+    
+    overflow: hidden;
+
+}
+#Works .border img{
+    width: 100%;
+
+}
+#Works .border .img-content .layer{
+    width: 100%;
+    height: 100%;
+    border: 5px solid transparent;
+
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.342);
+    top: 100%;
+    left: 0;
+    text-align: center;
+    padding-left: 50%;
+    transition: all 1s;
+}
+#Works .img-content:hover .layer{
+
+top: 0;
+
+}
+#Works .work-posss{
+    position: relative; 
+    top: 50%;
+    right: 50%;
+}
+#Works .work-icon{
+    padding-top: 7px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+}
+#Works .work-icon:hover {
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+#Clients{
+    min-height: 100vh;
+    background-color: #F7F7F7;
+    text-align: center;
+}
+#Clients .my-carousel{
+width: 100px;
+height: 100px;
+border-radius: 50%;
+}
+#Clients .carousel-indicators [data-bs-target]{
+    margin:0 15px;
+}
+
+#Clients .carousel-indicators [data-bs-target]{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+
+#Blog{
+    background-color: #F6F6F6;
+    min-height: 100vh;
+    text-align: center;
+}
+#Blog .carousel-indicators [data-bs-target]{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.508);
+}
+#Blog .mymmmm{
+    overflow: hidden;
+
+}
+
+#Blog .mymmmm img{
+    width: 100%;
+    transition: all 1s;
+
+}
+
+
+#Blog .mymmmm:hover img{
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+#Contact{
+    min-height: 100vh;
+
+    text-align: center;
+}
+
+#Contact .cont-bor{
+    width: fit-content;
+    border-bottom: 2px dotted rgba(128, 128, 128, 0.281);
+    margin: auto;
+}
+#Contact .cont-icon{
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    background-color: #F4F4F4;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    transition: all 0.5s;
+}
+#Contact .cont-icon:hover{
+    background-color: black;
+    color: white;
+
+}
+#Contact .cont-form input{
+    background-color: rgba(128, 128, 128, 0.197);
+    height: 40px;
+    outline: none;
+    color: black;
+
+}
+#Contact .cont-formar textarea{
+    background-color: rgba(128, 128, 128, 0.197);
+    outline: none;
+    color: black;
+
+    
+}
+
+#Contact .cont-btn button{
+    color: white;
+    background-color: black;
+    height: 50px;
+    transition: all 0.5s;
+
+}
+#Contact .cont-btn:hover button{
+    color: black;
+    background-color: white;
+
+
+}
